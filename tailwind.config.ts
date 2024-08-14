@@ -22,6 +22,13 @@ const config: Config = {
         'light-gray-70': 'hsl(var(--light-gray-70) / 0.7)',
         'bittersweet-shimmer': 'hsl(var(--bittersweet-shimmer) / <alpha-value>)',
       },
+      screens: {
+        'sm': '450px',   // Custom breakpoint for 450px
+        'md': '580px',   // Custom breakpoint for 580px
+        'lg': '768px',   // Custom breakpoint for 768px
+        'xl': '1024px',  // Custom breakpoint for 1024px
+        '2xl': '1250px', // Custom breakpoint for 1250px
+      },
       fontFamily: {
         poppins: 'var(--ff-poppins)',
       },
