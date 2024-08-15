@@ -77,6 +77,23 @@
   box-sizing: border-box;
 }
 
+.has-scrollbar::-webkit-scrollbar {
+  width: 5px; /* for vertical scrollbar */
+  height: 5px; /* for horizontal scrollbar */
+}
+
+.has-scrollbar::-webkit-scrollbar-track {
+  background: var(--onyx);
+  border-radius: 5px;
+}
+
+.has-scrollbar::-webkit-scrollbar-thumb {
+  background: var(--orange-yellow-crayola);
+  border-radius: 5px;
+}
+
+.has-scrollbar::-webkit-scrollbar-button { width: 20px; }
+
 
 
 body {
@@ -114,7 +131,27 @@ body {
   display: none;
 }
 
+.navbar-link{
+  padding: 20px 7px;
+}
+
 @media (min-width: 580px) {
+  :root {
+
+    /**
+     * typography
+     */
+
+    --fs-1: 32px;
+    --fs-2: 24px;
+    --fs-3: 26px;
+    --fs-4: 18px;
+    --fs-6: 15px;
+    --fs-7: 15px;
+    --fs-8: 12px;
+
+  }
+
   .info_more-btn {
     top: -30px;
     right: -30px;
@@ -129,7 +166,27 @@ body {
   .info_more-btn ion-icon { display: none; }
 }
 
+@media (min-width: 768px) {
+  .has-scrollbar::-webkit-scrollbar-button { width: 100px; }
+}
+
 @media (min-width: 1250px) {
+  body::-webkit-scrollbar { width: 20px; }
+
+  body::-webkit-scrollbar-track { background: var(--smoky-black); }
+
+  body::-webkit-scrollbar-thumb {
+    border: 5px solid var(--smoky-black);
+    background: hsla(0, 0%, 100%, 0.1);
+    border-radius: 20px;
+    box-shadow: inset 1px 1px 0 hsla(0, 0%, 100%, 0.11),
+                inset -1px -1px 0 hsla(0, 0%, 100%, 0.11);
+  }
+
+  body::-webkit-scrollbar-thumb:hover { background: hsla(0, 0%, 100%, 0.15); }
+
+  body::-webkit-scrollbar-button { height: 60px; }
+
   .info_more-btn { display: none; }
 }
 
@@ -137,3 +194,34 @@ body {
   color: linear-gradient(115deg, #f9ce34, #ee2a7b, #6228d7);
 }
   */
+
+  .navbar {
+    background: hsla(240, 1%, 17%, 0.75);
+    backdrop-filter: blur(10px);
+  }
+
+  .navbar-list{
+    padding: 0 20px;
+  }
+
+  @media (min-width: 1024px) {
+    :root {
+
+      /**
+      * shadow
+      */
+  
+      --shadow-1: -4px 8px 24px hsla(0, 0%, 0%, 0.125);
+      --shadow-2: 0 16px 30px hsla(0, 0%, 0%, 0.125);
+      --shadow-3: 0 16px 40px hsla(0, 0%, 0%, 0.125);
+  
+    }
+
+    .navbar{
+      padding: 0 20px;
+    }
+
+    .navbar-list{
+      padding: 0 20px;
+    }
+  }
