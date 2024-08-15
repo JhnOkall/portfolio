@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 const Sidebar = () => {
   return (
-    <aside className='bg-eerie-black-2 border border-solid border-jet rounded-[15px] shadow-1 z-[1] mb-[15px] max-h-[112px] overflow-hidden transition-2 md:w-[520px] md:mx-auto md:p-[30px] md:max-h-[180px] md:mb-[30px] lg:w-[700px] xl:w-[950px] xl:shadow-5 2xl:w-auto 2xl:sticky top-[60px] 2xl:max-h-max 2xl:h-[100%] 2xl:mb-0 2xl:pt-[60px] 2xl:z-[1] active:max-h-405px md:active:max-h-584px'>
+    <aside className='bg-eerie-black-2 border border-solid border-jet rounded-[20px] p-[15px] shadow-1 z-[1] mb-[15px] md:w-[520px] md:p-[30px]'>
       
       <div className='relative flex justify-start items-center gap-[15px] md:gap-[25px] 2xl:flex-col'>
 
@@ -41,7 +41,7 @@ const Sidebar = () => {
 
         <ul className='grid grid-cols-[1fr] gap-[16px] md:gap-[20px] lg:grid-cols-2 lg:gap-y-[30px] lg:gap-x-[15px] 2xl:grid-cols-[1fr]'>
           <li className='min-w-[100%] flex items-center gap-[16px]'>
-            <div className='relative bg-border-gradient-onyx w-[30px] h-[30px] rounded-[8px] flex justify-center items-center text-[16px] text-orange-yellow-crayola shadow-1 z-[1] md:w-[48px] md:h-[48px] md:rounded-[12px] md:text-[18px] before:absolute before:bg-eerie-black-1 before:content-none before:z-[1] before:inset-[1px]'>
+            <div className='relative bg-border-gradient-onyx w-[30px] h-[30px] rounded-[8px] flex justify-center items-center text-[16px] text-orange-yellow-crayola shadow-1 z-[1] md:w-[48px] md:h-[48px] md:rounded-[12px] md:text-[18px] before:absolute before:bg-eerie-black-1 before:content-[""] before:z-[1] before:inset-[1px]'>
               <ion-icon name="mail-outline"></ion-icon>
             </div>
             <div className='max-w-[100%] w-[calc(100%-46px)] md:max-w-[calc(100%-64px)] md:w-[calc(100%-64px)]'>
@@ -57,7 +57,7 @@ const Sidebar = () => {
           </li>
 
           <li className='min-w-[100%] flex items-center gap-[16px]'>
-            <div className='relative bg-border-gradient-onyx w-[30px] h-[30px] rounded-[8px] flex justify-center items-center text-[16px] text-orange-yellow-crayola shadow-1 z-[1] md:w-[48px] md:h-[48px] md:rounded-[12px] md:text-[18px] before:absolute before:bg-eerie-black-1 before:content-none before:z-[1] before:inset-[1px]'>
+            <div className='relative bg-border-gradient-onyx w-[30px] h-[30px] rounded-[8px] flex justify-center items-center text-[16px] text-orange-yellow-crayola shadow-1 z-[1] md:w-[48px] md:h-[48px] md:rounded-[12px] md:text-[18px] before:absolute before:bg-eerie-black-1 before:content-[""] before:z-[1] before:inset-[1px]'>
             <ion-icon name="phone-portrait-outline"></ion-icon>
             </div>
             <div className='max-w-[100%] w-[calc(100%-46px)] md:max-w-[calc(100%-64px)] md:w-[calc(100%-64px)]'>
@@ -73,7 +73,7 @@ const Sidebar = () => {
           </li>
 
           <li className='min-w-[100%] flex items-center gap-[16px]'>
-            <div className='relative bg-border-gradient-onyx w-[30px] h-[30px] rounded-[8px] flex justify-center items-center text-[16px] text-orange-yellow-crayola shadow-1 z-[1] md:w-[48px] md:h-[48px] md:rounded-[12px] md:text-[18px] before:absolute before:bg-eerie-black-1 before:content-none before:z-[1] before:inset-[1px]'>
+            <div className='relative bg-border-gradient-onyx w-[30px] h-[30px] rounded-[8px] flex justify-center items-center text-[16px] text-orange-yellow-crayola shadow-1 z-[1] md:w-[48px] md:h-[48px] md:rounded-[12px] md:text-[18px] before:absolute before:bg-eerie-black-1 before:content-[""] before:z-[1] before:inset-[1px]'>
             <ion-icon name="calendar-outline"></ion-icon>
             </div>
             <div className='max-w-[100%] w-[calc(100%-46px)] md:max-w-[calc(100%-64px)] md:w-[calc(100%-64px)]'>
@@ -85,7 +85,7 @@ const Sidebar = () => {
           </li>
 
           <li className='min-w-[100%] flex items-center gap-[16px]'>
-            <div className='relative bg-border-gradient-onyx w-[30px] h-[30px] rounded-[8px] flex justify-center items-center text-[16px] text-orange-yellow-crayola shadow-1 z-[1] md:w-[48px] md:h-[48px] md:rounded-[12px] md:text-[18px] before:absolute before:bg-eerie-black-1 before:content-none before:z-[1] before:inset-[1px]'>
+            <div className='relative bg-border-gradient-onyx w-[30px] h-[30px] rounded-[8px] flex justify-center items-center text-[16px] text-orange-yellow-crayola shadow-1 z-[1] md:w-[48px] md:h-[48px] md:rounded-[12px] md:text-[18px] before:absolute before:bg-eerie-black-1 before:content-[""] before:z-[1] before:inset-[1px]'>
             <ion-icon name="location-outline"></ion-icon>
             </div>
             <div className='max-w-[100%] w-[calc(100%-46px)] md:max-w-[calc(100%-64px)] md:w-[calc(100%-64px)]'>

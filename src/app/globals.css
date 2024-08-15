@@ -83,12 +83,12 @@
 }
 
 .has-scrollbar::-webkit-scrollbar-track {
-  background: var(--onyx);
+  background: hsl(240, 1%, 17%);
   border-radius: 5px;
 }
 
 .has-scrollbar::-webkit-scrollbar-thumb {
-  background: var(--orange-yellow-crayola);
+  background: hsl(45, 100%, 72%);
   border-radius: 5px;
 }
 
@@ -135,6 +135,10 @@ body {
   padding: 20px 7px;
 }
 
+.testimonials-avatar-box{
+  transform: translate(15px, -25px);
+}
+
 @media (min-width: 580px) {
   :root {
 
@@ -164,6 +168,10 @@ body {
   }
 
   .info_more-btn ion-icon { display: none; }
+
+  .testimonials-avatar-box{
+    transform: translate(30px, -30px);
+  }
 }
 
 @media (min-width: 768px) {
