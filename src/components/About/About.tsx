@@ -1,12 +1,8 @@
+import React from 'react'
 import Services from './Services'
 import Testimonials from './Testimonials'
-import React, { ReactNode } from 'react';
 
-interface AboutProps {
-  children?: ReactNode;
-}
-
-const About: React.FC<AboutProps> = ({ children }) => {
+const About = () => {
   return (
     <article className='bg-eerie-black-2 border border-solid border-jet rounded-[20px] p-[15px] shadow-1 z-[1] md:w-[520px] md:ms-auto md:me-auto lg:w-[768px] xl:w-[950px] 2xl:w-auto 2xl:min-h-[100%]'>
       <header>
