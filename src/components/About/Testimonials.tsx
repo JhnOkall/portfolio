@@ -9,7 +9,7 @@ const Testimonials = () => {
         Testimonials
       </h3>
 
-      <ul className='has-scrollbar flex justify-start items-start gap-[15px] pb-[35px] overflow-x-auto scroll-smooth overscroll-contain snap-mandatory m-0 -mx-[15px] py-[25px] px-[15px] md:gap-[30px] md:m-0 md:mx-[-30px] md:p-[30px] md:pb-35px'>
+      <ul className='flex justify-center items-center gap-[15px] p-[25px] pb-[25px] overflow-x-auto scroll-smooth overscroll-contain snap-mandatory scroll-px-[25px] md:gap-[50px] md:p-[45px] md:scroll-px-[45px] has-scrollbar'>
 
         <li className='min-w-[100%] snap-center md:min-w-[calc(50%-15px)]'>
           <div className='relative bg-border-gradient-onyx p-[15px] pt-[45px] rounded-[14px] shadow-2 cursor-pointer z-[1] before:content-[""] before:absolute before:inset-[1px] before:bg-gradient-jet before:z-[-1] md:p-[30px] md:pt-[25px]'>
