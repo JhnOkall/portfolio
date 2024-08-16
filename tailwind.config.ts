@@ -1,5 +1,7 @@
 import type { Config } from "tailwindcss";
 
+const plugin = require('tailwindcss/plugin')
+
 const config: Config = {
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
@@ -69,6 +71,14 @@ const config: Config = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    plugin(function({ addUtilities }: { addUtilities: (utilities: Record<string, Record<string, string>>) => void }) {
+      addUtilities({
+        '.hide-resizer::-webkit-resizer': {
+          display: 'none',
+        }
+      });
+    })
+  ],
 };
 export default config;
