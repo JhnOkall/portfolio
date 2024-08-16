@@ -24,7 +24,7 @@ const Navbar: React.FC<NavbarProps> = ({ setActiveComponent, activeComponent }) 
               className={getButtonClass(item)}
             >
               {item}
-              <span className={`absolute bottom-0 left-0 w-full h-[2px] bg-orange-yellow-crayola transform origin-left transition-transform duration-300 ${item === activeComponent ? 'scale-x-100' : 'scale-x-0'}`}></span>
+              {/* <span className={`absolute bottom-0 left-0 w-full h-[2px] bg-orange-yellow-crayola transform origin-left transition-transform duration-300 ${item === activeComponent ? 'scale-x-100' : 'scale-x-0'}`}></span>  */}
             </button>
           </li>
         ))}

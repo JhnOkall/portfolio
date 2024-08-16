@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 const Sidebar = () => {
   return (
-    <aside className='bg-eerie-black-2 border border-solid border-jet rounded-[20px] p-[15px] shadow-1 z-[1] mb-[15px] md:w-[520px] md:p-[30px]'>
+    <aside className='bg-eerie-black-2 border border-solid border-jet rounded-[20px] p-[15px] shadow-1 z-[1] max-h-[112px] overflow-hidden transition-2 mb-[15px] md:w-[520px] md:p-[30px] md:mx-auto md:max-h-[180px] md:mb-[30px] lg:w-[700px] xl:w-[950px] xl:shadow-5 2xl:w-auto 2xl:sticky 2xl:top-[60px] 2xl:max-h-max 2xl:h-[100%] 2xl:mb-0 2xl:pt-[60px] 2xl-[1]'>
       
       <div className='relative flex justify-start items-center gap-[15px] md:gap-[25px] 2xl:flex-col'>
 

@@ -36,7 +36,7 @@ export default function Home() {
   };
 
   return (
-    <main className='m-[15px] mb-[75px] min-w-[259px] md:mt-[60px] md:mb-[100px] xl:mb-[60px] 2xl:max-w-[1200px] xl:flex xl:justify-center xl:items-center xl:gap-[25px] xl:mx-auto'>
+    <main className='m-[15px] mb-[75px] min-w-[259px] md:mt-[60px] md:mb-[100px] xl:mb-[60px] 2xl:max-w-[1200px] 2xl:flex 2xl:justify-center 2xl:items-stretch 2xl:gap-[25px] 2xl:mx-auto'>
       <Sidebar />
       <div className='xl:relative xl:w-max xl:m-auto 2xl:min-w-[75%] 2xl:w-[75%] 2xl:m-0'>
         <Navbar setActiveComponent={setActiveComponent} activeComponent={activeComponent} />
