@@ -165,6 +165,8 @@ body {
   box-shadow: 0 0 0 4px var(--jet);
 }
 
+.skills-item:not(:last-child) { margin-bottom: 15px; }
+
 @media (min-width: 580px) {
   :root {
 
@@ -181,6 +183,8 @@ body {
     --fs-8: 12px;
 
   }
+
+  .skills-item:not(:last-child) { margin-bottom: 25px; }
 
   .info_more-btn {
     top: -30px;

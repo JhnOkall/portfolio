@@ -11,8 +11,7 @@ const Education = () => {
           Education
         </h3>
       </div>
-
-      <ol className='text-6 ml-[45px] md:ml-[65px]'>
+      <ol className='text-6 ml-[45px] md:ml-[65px] timeline-list'>
         <li className='relative timeline-item'>
           <h4 className='text-white-2 capitalize text-6 leading-[1.3] mb-[7px]'>
             University
