@@ -94,6 +94,8 @@
 
 .has-scrollbar::-webkit-scrollbar-button { width: 20px; }
 
+ion-icon { --ionicon-stroke-width: 35px; }
+
 
 
 body {
@@ -139,6 +141,30 @@ body {
   transform: translate(15px, -25px);
 }
 
+.timeline-item:not(:last-child) { margin-bottom: 20px; }
+
+.timeline-item:not(:last-child)::before {
+  content: "";
+  position: absolute;
+  top: -25px;
+  left: -30px;
+  width: 1px;
+  height: calc(100% + 50px);
+  background: var(--jet);
+}
+
+.timeline-item::after {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: -33px;
+  height: 6px;
+  width: 6px;
+  background: var(--text-gradient-yellow);
+  border-radius: 50%;
+  box-shadow: 0 0 0 4px var(--jet);
+}
+
 @media (min-width: 580px) {
   :root {
 
@@ -171,6 +197,14 @@ body {
 
   .testimonials-avatar-box{
     transform: translate(30px, -30px);
+  }
+
+  .timeline-item:not(:last-child)::before { left: -40px; }
+
+  .timeline-item::after {
+    height: 8px;
+    width: 8px;
+    left: -43px;
   }
 }
 

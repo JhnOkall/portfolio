@@ -41,7 +41,7 @@ const Sidebar = () => {
 
         <ul className='grid grid-cols-[1fr] gap-[16px] md:gap-[20px] lg:grid-cols-2 lg:gap-y-[30px] lg:gap-x-[15px] 2xl:grid-cols-[1fr]'>
           <li className='min-w-[100%] flex items-center gap-[16px]'>
-            <div className='relative bg-border-gradient-onyx w-[30px] h-[30px] rounded-[8px] flex justify-center items-center text-[16px] text-orange-yellow-crayola shadow-1 z-[1] md:w-[48px] md:h-[48px] md:rounded-[12px] md:text-[18px] before:absolute before:bg-eerie-black-1 before:content-[""] before:z-[1] before:inset-[1px]'>
+            <div className='relative bg-border-gradient-onyx w-[30px] h-[30px] rounded-[8px] flex justify-center items-center text-[16px] text-orange-yellow-crayola shadow-1 z-[1] md:w-[48px] md:h-[48px] md:rounded-[12px] md:text-[18px] before:absolute before:bg-eerie-black-1 before:content-none before:z-[1] before:inset-[1px]'>
               <ion-icon name="mail-outline"></ion-icon>
             </div>
             <div className='max-w-[100%] w-[calc(100%-46px)] md:max-w-[calc(100%-64px)] md:w-[calc(100%-64px)]'>
@@ -57,7 +57,7 @@ const Sidebar = () => {
           </li>
 
           <li className='min-w-[100%] flex items-center gap-[16px]'>
-            <div className='relative bg-border-gradient-onyx w-[30px] h-[30px] rounded-[8px] flex justify-center items-center text-[16px] text-orange-yellow-crayola shadow-1 z-[1] md:w-[48px] md:h-[48px] md:rounded-[12px] md:text-[18px] before:absolute before:bg-eerie-black-1 before:content-[""] before:z-[1] before:inset-[1px]'>
+            <div className='relative bg-border-gradient-onyx w-[30px] h-[30px] rounded-[8px] flex justify-center items-center text-[16px] text-orange-yellow-crayola shadow-1 z-[1] md:w-[48px] md:h-[48px] md:rounded-[12px] md:text-[18px] before:absolute before:bg-eerie-black-1 before:content-none before:z-[1] before:inset-[1px]'>
             <ion-icon name="phone-portrait-outline"></ion-icon>
             </div>
             <div className='max-w-[100%] w-[calc(100%-46px)] md:max-w-[calc(100%-64px)] md:w-[calc(100%-64px)]'>
@@ -73,7 +73,7 @@ const Sidebar = () => {
           </li>
 
           <li className='min-w-[100%] flex items-center gap-[16px]'>
-            <div className='relative bg-border-gradient-onyx w-[30px] h-[30px] rounded-[8px] flex justify-center items-center text-[16px] text-orange-yellow-crayola shadow-1 z-[1] md:w-[48px] md:h-[48px] md:rounded-[12px] md:text-[18px] before:absolute before:bg-eerie-black-1 before:content-[""] before:z-[1] before:inset-[1px]'>
+            <div className='relative bg-border-gradient-onyx w-[30px] h-[30px] rounded-[8px] flex justify-center items-center text-[16px] text-orange-yellow-crayola shadow-1 z-[1] md:w-[48px] md:h-[48px] md:rounded-[12px] md:text-[18px] before:absolute before:bg-eerie-black-1 before:content-none before:z-[1] before:inset-[1px]'>
             <ion-icon name="calendar-outline"></ion-icon>
             </div>
             <div className='max-w-[100%] w-[calc(100%-46px)] md:max-w-[calc(100%-64px)] md:w-[calc(100%-64px)]'>
@@ -85,7 +85,7 @@ const Sidebar = () => {
           </li>
 
           <li className='min-w-[100%] flex items-center gap-[16px]'>
-            <div className='relative bg-border-gradient-onyx w-[30px] h-[30px] rounded-[8px] flex justify-center items-center text-[16px] text-orange-yellow-crayola shadow-1 z-[1] md:w-[48px] md:h-[48px] md:rounded-[12px] md:text-[18px] before:absolute before:bg-eerie-black-1 before:content-[""] before:z-[1] before:inset-[1px]'>
+            <div className='relative bg-border-gradient-onyx w-[30px] h-[30px] rounded-[8px] flex justify-center items-center text-[16px] text-orange-yellow-crayola shadow-1 z-[1] md:w-[48px] md:h-[48px] md:rounded-[12px] md:text-[18px] before:absolute before:bg-eerie-black-1 before:content-none before:z-[1] before:inset-[1px]'>
             <ion-icon name="location-outline"></ion-icon>
             </div>
             <div className='max-w-[100%] w-[calc(100%-46px)] md:max-w-[calc(100%-64px)] md:w-[calc(100%-64px)]'>
