@@ -24,6 +24,15 @@ const config: Config = {
         'light-gray-70': 'hsl(var(--light-gray-70) / 0.7)',
         'bittersweet-shimmer': 'hsl(var(--bittersweet-shimmer) / <alpha-value>)',
       },
+      keyframes: {
+        scaleUp: {
+          '0%': { transform: 'scale(0.5)' },
+          '100%': { transform: 'scale(1)' },
+        },
+      },
+      animation: {
+        scaleUp: 'scaleUp 0.25s ease forwards',
+      },
       screens: {
         'sm': '450px',   // Custom breakpoint for 450px
         'md': '580px',   // Custom breakpoint for 580px
